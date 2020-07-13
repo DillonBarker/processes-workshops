@@ -1,19 +1,12 @@
 class Middle
 
-  def initialize
-    @array = []
-  end
-
   def get_middle(string)
+    n = (string.length)/2
+
     if string.length % 2 == 0
-      first = (string.length)/2
-      @array << string[first - 1]
-      @array << string[first]
-      answer = @array.join("")
-      answer
+      string[n-1] + string[n]
     else
-      answer = string[(string.length)/2]
-      "#{answer}"
+      string[n]
     end
   end
 end
