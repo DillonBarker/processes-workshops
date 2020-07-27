@@ -1,0 +1,4 @@
+- true if 10 mins and ends at start
+- 1 minute = 1 block, 10 blocks in 10 minutes
+- dont need to worry about bad elements in array
+- if n = s && e = w (count)
