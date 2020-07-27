@@ -5,8 +5,8 @@ class Walk
     s =  array.count('s')
     e =  array.count('e')
     w =  array.count('w')
-    
-    if n == s && e == w
+
+    if n == s && e == w && array.length == 10
       true
     else
       false
